@@ -14,8 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/contactos', function () {
-    return view('contactos');
+Route::get('/login2', function () {
+    return view('login');
 });
 // Authentication Routes...
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
